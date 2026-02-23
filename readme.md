@@ -1,5 +1,5 @@
 
-## A three-stage analytical framework to estimate the required recording duration necessary to capture stable high-frequency oscillation (HFO) spatial distributions
+## Required Duration Estimation Framework for HFO Characterisation
 
 ### Overview
 
@@ -97,4 +97,4 @@ Dr. Zhuying Chen
 email: zhuychen@unimelb.edu.au
 
 Dr. William Stacey
-email:wstacey@umich.edu
+email: wstacey@umich.edu
