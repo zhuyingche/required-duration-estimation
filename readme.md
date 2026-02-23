@@ -34,7 +34,7 @@ Main script:
 analyse_nmfByEpochByState_mainFunction.m
 #### Stage 2 – Similarity Quantification Using Best-Match Similarity Padding (BSP)
 
-Method: Dynamic time warping (DTW) with best-match similarity padding
+Method: Best-match Similarity Padding (BSP)
 
 Purpose:
 Quantify similarity between HFO spatial distributions derived from truncated recordings and the full recording.
@@ -63,19 +63,21 @@ analyse_bsp_nmf_findStabPoint.m
 
 Repository Structure
 .
-├── analyse_nmfByEpochByState_mainFunction.m
+├── analyse_nmfByEpochByState.m
 ├── analyse_bsp_nmf.m
 ├── analyse_bsp_nmf_findStabPoint.m
 ├── functions/                  % Supporting utility functions
-├── example_data/               % Optional demonstration data
+├── data/               % demonstration data
+├── results/               % results
+├── figure/               % figure
 └── README.md
 Requirements
 
-MATLAB (tested on R2022a or later recommended)
+MATLAB (tested on R2023)
 
 Statistics and Machine Learning Toolbox
 
-Signal Processing Toolbox (if applicable)
+Signal Processing Toolbox
 
 
 ### Citation
@@ -91,5 +93,8 @@ DOI: (to be updated upon publication)
 
 For methodological questions or collaboration inquiries, please contact:
 
-Zhuying Chen
+Dr. Zhuying Chen
 email: zhuychen@unimelb.edu.au
+
+Dr. William Stacey
+email:wstacey@umich.edu
