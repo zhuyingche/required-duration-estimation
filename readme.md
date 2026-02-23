@@ -84,7 +84,7 @@ Signal Processing Toolbox
 
 If you use this framework in your research, please cite:
 
-Chen Z*, Yu W*, et al. (2026).
+Chen Z*, et al. (2026).
 The influence of recording duration and vigilance state on high-frequency oscillation characterization in epilepsy.
 
 DOI: (to be updated upon publication)
