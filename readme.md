@@ -1,5 +1,5 @@
 
-## Required Duration (reqDur) Estination Framework for HFO Characterisation
+## A three-stage analytical framework to estimate the required recording duration necessary to capture stable high-frequency oscillation (HFO) spatial distributions
 
 ### Overview
 
@@ -8,7 +8,7 @@ This repository accompanies the under-review manuscript:
 Chen Z*, Yu W*, et al. (2026)
 The influence of recording duration and vigilance state on high-frequency oscillation characterization in epilepsy
 
-This repository implements a three-stage analytical framework to estimate the required recording duration (reqDur) necessary to capture stable high-frequency oscillation (HFO) spatial distributions across vigilance states.
+This repository implements a three-stage analytical framework to estimate the required recording duration necessary to capture stable high-frequency oscillation (HFO) spatial distributions across vigilance states.
 
 The framework quantifies when truncated intracranial EEG recordings reliably approximate full-recording HFO spatial patterns.
 
@@ -31,7 +31,7 @@ Purpose: Derive stable, low-dimensional spatial representations of HFO rate dist
 
 Main script:
 
-analyse_nmfByEpochByState_mainFunction.m
+analyse_nmfByEpochByState.m
 #### Stage 2 – Similarity Quantification Using Best-Match Similarity Padding (BSP)
 
 Method: Best-match Similarity Padding (BSP)
