@@ -1,5 +1,5 @@
 
-## Required Duration Estimation Framework for HFO Characterisation
+## Required Duration (reqDur) Estimation Framework for HFO Characterisation
 
 ### Overview
 
@@ -8,7 +8,7 @@ This repository accompanies the under-review manuscript:
 Chen Z*, et al. (2026)
 The influence of recording duration and vigilance state on high-frequency oscillation characterization in epilepsy
 
-This repository implements a three-stage analytical framework to estimate the required recording duration necessary to capture stable high-frequency oscillation (HFO) spatial distributions across vigilance states.
+This repository implements a three-stage analytical framework to estimate the required recording duration (reqDur) necessary to capture stable high-frequency oscillation (HFO) spatial distributions across vigilance states.
 
 The framework quantifies when truncated intracranial EEG recordings reliably approximate full-recording HFO spatial patterns.
 
