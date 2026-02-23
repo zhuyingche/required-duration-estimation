@@ -5,7 +5,7 @@
 
 This repository accompanies the under-review manuscript:
 
-Chen Z*, Yu W*, et al. (2026)
+Chen Z*, et al. (2026)
 The influence of recording duration and vigilance state on high-frequency oscillation characterization in epilepsy
 
 This repository implements a three-stage analytical framework to estimate the required recording duration necessary to capture stable high-frequency oscillation (HFO) spatial distributions across vigilance states.
