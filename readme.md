@@ -66,7 +66,7 @@ Repository Structure
 ├── analyse_nmfByEpochByState.m
 ├── analyse_bsp_nmf.m
 ├── analyse_bsp_nmf_findStabPoint.m
-├── functions/                  % Supporting utility functions
+├── lib/                  % Supporting utility functions
 ├── data/               % demonstration data
 ├── results/               % results
 ├── figure/               % figure

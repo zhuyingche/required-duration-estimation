@@ -1,25 +1,32 @@
 %% ======================================================================
-% Required Duration (reqDur) Estimation Framework
+% Code accompanying the manuscript:
+% "The influence of recording duration and vigilance state on 
+% high-frequency oscillation characterization in epilepsy"
+% Chen Z, et al. (2026)
 %
-% OVERVIEW
-% The reqDur framework quantifies the minimum recording duration required
-% to reliably capture stable HFO spatial organization. It consists of three
-% sequential stages:
+% This repository implements a three-stage analytical framework to estimate
+% the required recording duration (reqDur) necessary to capture stable
+% high-frequency oscillation (HFO) spatial distributions across vigilance
+% states.
 %
-%   Stage 1: NMF-based extraction of noise-reduced HFO spatial and temporal
-%            patterns from windowed HFO-rate matrices.
-%            -> analyse_nmfByEpochByState_mainFunction.m
+% Please cite the final published version when available.
+% ----------------------------------------------------------------------
+% Required Duration (reqDur) Estimation Pipeline
 %
-%   Stage 2: Similarity quantification between partial-recording patterns
-%            (up to epoch n) and the full-recording reference using
-%            best-match cosine similarity with padding to accommodate
-%            unequal recording lengths.
-%            -> bestMatchCosine_mainFunction.m
+% The reqDur framework comprises three sequential stages:
 %
-%   Stage 3: Stability-point detection to identify the earliest recording
-%            time at which similarity reaches and maintains a high plateau
-%            (defined as reqDur).
-%            -> FindStabPoint_bestMatchCosine_cosine.m  (core routine)
+% Stage 1: Extraction of noise-reduced HFO spatial distributions using
+%          non-negative matrix factorization (NMF)
+%          -> analyse_nmfByEpochByState.m
+%
+% Stage 2: Quantification of similarity between distributions derived from
+%          truncated recordings and the full recording using dynamic time
+%          warping with best-match similarity padding (BSP)
+%          -> analyse_bsp_nmf.m
+%
+% Stage 3: Identification of the earliest time point at which similarity
+%          reaches and maintains a high, stable plateau (defined as reqDur)
+%          -> analyse_bsp_nmf_findStabPoint.m
 %
 % ----------------------------------------------------------------------
 % CURRENT SCRIPT: Stage 3 (single-patient demonstration)
@@ -35,8 +42,6 @@
 % - Minimal release version: single-patient computation only.
 % - Cohort-level summaries and statistical tests are intentionally omitted.
 %
-% AUTHOR
-% Zhuying Chen, 27 Aug 2024
 %% ======================================================================
 
 %% ------------------------ Paths ----------------------------------------

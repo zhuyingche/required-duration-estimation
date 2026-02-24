@@ -2,7 +2,7 @@
 % Code accompanying the manuscript:
 % "The influence of recording duration and vigilance state on 
 % high-frequency oscillation characterization in epilepsy"
-% Chen Z*, Yu W*, et al. (2026)
+% Chen Z, et al. (2026)
 %
 % This repository implements a three-stage analytical framework to estimate
 % the required recording duration (reqDur) necessary to capture stable
@@ -17,7 +17,7 @@
 %
 % Stage 1: Extraction of noise-reduced HFO spatial distributions using
 %          non-negative matrix factorization (NMF)
-%          -> analyse_nmfByEpochByState_mainFunction.m
+%          -> analyse_nmfByEpochByState.m
 %
 % Stage 2: Quantification of similarity between distributions derived from
 %          truncated recordings and the full recording using dynamic time
