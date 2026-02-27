@@ -19,6 +19,7 @@ Reliable characterization of HFO spatial distributions is essential for epilepsy
 
 The reqDur framework systematically evaluates temporal stability of HFO spatial structure using matrix factorisation and time-alignment similarity metrics.
 
+
 ### Analytical Pipeline
 
 The reqDur framework comprises three sequential stages:
@@ -68,6 +69,16 @@ Chen Z*, et al. (2026).
 The influence of recording duration and vigilance state on high-frequency oscillation characterization in epilepsy.
 
 DOI: (to be updated upon publication)
+
+
+### License
+
+Released under the CC-BY-NC-4.0 License. 
+
+You are free to share and adapt the material for non-commercial purposes, provided appropriate attribution is given. 
+
+For full license terms, see: https://creativecommons.org/licenses/by-nc/4.0/
+
 
 ### Contact
 

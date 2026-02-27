@@ -28,6 +28,10 @@ function stage2_bsp(varName, patientId, filePathResult, filePathFig, winMin)
 %         - overallSimilarity: combined similarity
 %     4) Save similarity trajectories and generate a figure.
 %
+%
+%  Created in 2026 by Zhuying Chen (zhuychen@unimelb.edu.au)
+%  Released under the CC-BY-NC-4.0 License
+%  http://creativecommons.org/licenses/by-nc/4.0/
 %% ======================================================================
 
     % Format patient ID

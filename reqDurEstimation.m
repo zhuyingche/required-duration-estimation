@@ -26,6 +26,9 @@
 %          reaches and maintains a high, stable plateau (defined as reqDur)
 %          -> stage3_findStabPoint.m
 %
+%  Created in 2026 by Zhuying Chen (zhuychen@unimelb.edu.au)
+%  Released under the CC-BY-NC-4.0 License
+%  http://creativecommons.org/licenses/by-nc/4.0/
 %% ======================================================================
 
 %% Predefine file paths & core parameters

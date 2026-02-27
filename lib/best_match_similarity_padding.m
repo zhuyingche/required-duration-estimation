@@ -1,16 +1,51 @@
 function [overallSimilarity, nonPaddedSimilarity, paddedSimilarity, paddedX, paddedY, pathX, pathY] = best_match_similarity_padding(x, y)
- %  pad the shorter signal (either x or y) to match the length of the longer one, 
- %  by searching for the best matching segments using both cosine similarity and absolute dissimilarity
- %  Author: Zhuying Chen
- %  Date: 5 Sep 2024
- %
- % Combines cosine similarity and absolute dissimilarity for segment selection.
- % First identifies a subset of the top segments with the highest cosine similarity (e.g., top 10% of segments).
- % Then selects the best match among these top segments based on the lowest absolute dissimilarity.
- %
- % Computes similarity using the mean cosine similarity for the entire padded signals, non-padded parts, and padded parts.
- %
- % Suitable when the focus is on monotonic relationships between signals.
+%==========================================================================
+% best_match_similarity_padding
+%
+% PURPOSE:
+%   Computes similarity between two multichannel signals of unequal length
+%   by padding the shorter signal using a best-match segment selection
+%   strategy. 
+%
+% INPUT:
+%   x, y   - Multichannel signals of size [nChannels × nObservations].
+%            Both signals must have the same number of channels.
+%
+% OUTPUT:
+%   overallSimilarity      - Mean cosine similarity across the fully padded signals
+%   nonPaddedSimilarity    - Mean cosine similarity over the originally aligned portion
+%   paddedSimilarity       - Mean cosine similarity over the padded portion only
+%   paddedX, paddedY       - Length-matched signals after padding
+%   pathX, pathY           - Index mappings indicating segment selection during padding
+%
+% METHOD:
+%   1. Identify the shorter signal.
+%   2. For each missing observation, search within the shorter signal for
+%      candidate segments that best match the corresponding segment in the
+%      longer signal.
+%   3. Rank candidate segments by cosine similarity.
+%   4. From the top-ranking subset (e.g., top 10%), select the segment with
+%      minimal absolute dissimilarity.
+%   5. Append the selected segment to the shorter signal.
+%   6. Compute mean cosine similarity for:
+%        (i)  the entire padded signals,
+%        (ii) the originally aligned portion,
+%        (iii) the padded portion.
+%
+% RATIONALE:
+%   This hybrid similarity strategy prioritizes angular alignment (cosine
+%   similarity) while refining matches using magnitude-based dissimilarity.
+%   The approach is particularly suitable when structural pattern similarity
+%   is of primary interest.
+%
+% NOTE:
+%   If both signals have equal length, no padding is performed and the
+%   padded similarity is returned as NaN.
+%
+%  Created in 2026 by Zhuying Chen (zhuychen@unimelb.edu.au)
+%  Released under the CC-BY-NC-4.0 License
+%  http://creativecommons.org/licenses/by-nc/4.0/
+%==========================================================================
 
     % Ensure x and y have the same number of channels (rows)
     [mCh1, nObs1] = size(x);
