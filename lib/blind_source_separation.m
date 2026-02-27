@@ -34,7 +34,7 @@ function results = blind_source_separation( rate )
 %
 % ORIGIN
 %   Created by S. Gliske (2016; CC-BY-NC-4.0).
-%   Notes and refinements by Z. Chen (2024) for the reqDur framework.
+%   Notes and refinements by Z. Chen (2026) for the reqDur estimation framework.
 %% ======================================================================
 
 %% Validity check: require at least minimal detectable HFO activity

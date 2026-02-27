@@ -1,4 +1,4 @@
-function [overallSimilarity, nonPaddedSimilarity, paddedSimilarity, paddedX, paddedY, pathX, pathY] = best_match_cosine_similarity(x, y)
+function [overallSimilarity, nonPaddedSimilarity, paddedSimilarity, paddedX, paddedY, pathX, pathY] = best_match_similarity_padding(x, y)
  %  pad the shorter signal (either x or y) to match the length of the longer one, 
  %  by searching for the best matching segments using both cosine similarity and absolute dissimilarity
  %  Author: Zhuying Chen
