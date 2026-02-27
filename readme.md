@@ -23,14 +23,14 @@ The reqDur framework systematically evaluates temporal stability of HFO spatial 
 
 The reqDur framework comprises three sequential stages:
 
-Main script: identify_reqDur_mainFunction.m
+Main script: reqDurEstimation.m
 
 #### Stage 1 – Extraction of Noise-Reduced HFO Spatial Distributions
 
 Method: Non-negative matrix factorization (NMF)
 Purpose: Derive stable, low-dimensional spatial representations of HFO rate distributions across vigilance states
 
-Main script: stage1_nmf_mainFunction.m
+Main script: stage1_nmf.m
 
 #### Stage 2 – Similarity Quantification Using Best-Match Similarity Padding (BSP)
 
@@ -38,7 +38,7 @@ Method: Best-match Similarity Padding (BSP)
 
 Purpose: Quantify similarity between HFO spatial distributions derived from truncated recordings and the full recording. This stage assesses how closely shorter recordings reproduce the spatial structure of the complete dataset.
 
-Main script: stage2_bsp_mainFunction.m
+Main script: stage2_bsp.m
 
 #### Stage 3 – Stable Plateau Detection (reqDur Identification)
 
@@ -46,7 +46,7 @@ Method: Stability plateau detection
 
 Purpose: Identify the earliest time point at which similarity: reaches a high level & remains consistently stable. This time point is defined as the required duration (reqDur).
 
-Main script: stage3_findStabPoint_mainFunction.m
+Main script: stage3_findStabPoint.m
 
 Repository Structure
 .

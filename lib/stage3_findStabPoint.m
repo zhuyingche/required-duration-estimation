@@ -1,6 +1,6 @@
-function  [stabPoint_timeDaySinceRecStart] = stage3_findStabPoint_mainFunction (varName, patientId, filePathResult, filePathFig, winMin)
+function  [stabPoint_timeDaySinceRecStart] = stage3_findStabPoint (varName, patientId, filePathResult, filePathFig, winMin)
 %% ======================================================================
-% stage3_findStabPoint_mainFunction
+% stage3_findStabPoint
 %
 % PURPOSE
 %   Implements Stage 3 of the reqDur framework:

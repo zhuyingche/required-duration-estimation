@@ -1,6 +1,6 @@
-function stage1_nmf_mainFunction(varName, patientId, filePathData, filePathResult)
+function stage1_nmf(varName, patientId, filePathData, filePathResult)
 %===============================================================================
-% stage1_nmf_mainFunction
+% stage1_nmf
 %
 % PURPOSE
 % This function implements Stage 1 of the reqDur estimation framework:

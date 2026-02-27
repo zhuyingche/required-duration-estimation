@@ -1,6 +1,6 @@
-function stage2_bsp_mainFunction(varName, patientId, filePathResult, filePathFig, winMin)
+function stage2_bsp(varName, patientId, filePathResult, filePathFig, winMin)
 %% ======================================================================
-% stage2_bsp_mainFunction
+% stage2_bsp
 %
 % PURPOSE
 % Implements Stage 2 of the reqDur framework by quantifying how closely
