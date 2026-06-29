@@ -3,9 +3,9 @@
 
 ### Overview
 
-This repository accompanies the under-review manuscript:
+This repository accompanies the following article published in *Neurology*:
 
-Chen Z*, et al. (2026) The influence of recording duration and vigilance state on high-frequency oscillation characterization in epilepsy
+Chen Z, Gliske SV, Alsammani A, et al. (2026). The influence of recording duration and vigilance state on high-frequency oscillation characterization in epilepsy. Neurology, 107(2), e218225.
 
 This repository implements a three-stage analytical framework to estimate the required recording duration (reqDur) necessary to capture stable high-frequency oscillation (HFO) spatial distributions across vigilance states.
 
@@ -65,10 +65,9 @@ Requirements: MATLAB (tested on R2023); Statistics and Machine Learning Toolbox;
 
 If you use this framework in your research, please cite:
 
-Chen Z*, et al. (2026).
-The influence of recording duration and vigilance state on high-frequency oscillation characterization in epilepsy.
+Chen Z, Gliske SV, Alsammani A, et al. (2026). The influence of recording duration and vigilance state on high-frequency oscillation characterization in epilepsy. Neurology, 107(2), e218225.
 
-DOI: (to be updated upon publication)
+DOI: https://doi.org/10.1212/WNL.0000000000218225
 
 
 ### License
