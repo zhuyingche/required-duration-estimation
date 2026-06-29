@@ -6,10 +6,10 @@
 % Neurology, 107(2), e218225.
 %
 % This repository implements a three-stage analytical framework to estimate
-% the required recording duration (reqDur) necessary to adequately capture
+% the required recording duration (reqDur) needed to adequately capture
 % each vigilance state's high-frequency oscillation (HFO) distribution.
 %
-% Please cite the final published version when available.
+% Please cite the published article above when using this code.
 % ----------------------------------------------------------------------
 % Required Duration (reqDur) Estimation Pipeline
 %

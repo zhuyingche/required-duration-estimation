@@ -7,11 +7,11 @@ This repository accompanies the following article published in *Neurology*:
 
 Chen Z, Gliske SV, Alsammani A, et al. (2026). The influence of recording duration and vigilance state on high-frequency oscillation characterization in epilepsy. Neurology, 107(2), e218225.
 
-This repository implements a three-stage analytical framework to estimate the required recording duration (reqDur) necessary to capture stable high-frequency oscillation (HFO) spatial distributions across vigilance states.
+This repository implements a three-stage analytical framework to estimate the required recording duration (reqDur) needed to adequately capture high-frequency oscillation (HFO) distributions within each vigilance state.
 
 The framework quantifies when truncated intracranial EEG recordings reliably approximate full-recording HFO spatial patterns.
 
-Please cite the final published version when available.
+Please cite the published article above when using this code.
 
 #### Scientific Rationale
 
