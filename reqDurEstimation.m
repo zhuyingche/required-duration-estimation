@@ -1,8 +1,9 @@
 %% ======================================================================
 % Code accompanying the manuscript:
-% "The influence of recording duration and vigilance state on 
-% high-frequency oscillation characterization in epilepsy"
-% Chen Z, et al. (2026)
+% Chen Z, Gliske SV, Alsammani A, et al. (2026).
+% The influence of recording duration and vigilance state on
+% high-frequency oscillation characterization in epilepsy.
+% Neurology, 107(2), e218225.
 %
 % This repository implements a three-stage analytical framework to estimate
 % the required recording duration (reqDur) necessary to adequately capture
