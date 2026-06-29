@@ -22,7 +22,7 @@ function stage1_nmf(varName, patientId, filePathData, filePathResult)
 % OUTPUTS
 %   Saves nmfEpochResult (e.g., W/H factors and metadata) to filePathResult.
 %
-%  Created in 2026 by Zhuying Chen (zhuychen@unimelb.edu.au)
+%  Created in 2026 by Zhuying Chen (zhuying.chen@unimelb.edu.au)
 %  Released under the CC-BY-NC-4.0 License
 %  http://creativecommons.org/licenses/by-nc/4.0/
 % ==========================================================================================

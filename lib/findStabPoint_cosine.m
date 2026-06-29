@@ -30,7 +30,7 @@ function stable_point = findStabPoint_cosine(d)
 %   Thresholds and minimum duration parameters can be adjusted depending
 %   on the desired sensitivity for stabilization detection.
 %
-%  Created in 2026 by Zhuying Chen (zhuychen@unimelb.edu.au)
+%  Created in 2026 by Zhuying Chen (zhuying.chen@unimelb.edu.au)
 %  Released under the CC-BY-NC-4.0 License
 %  http://creativecommons.org/licenses/by-nc/4.0/
 %==========================================================================

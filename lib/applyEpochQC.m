@@ -29,7 +29,7 @@ function [Rates, timeDay, timeEndDay] = applyEpochQC( ...
 %   4. Remove NaN-contaminated epochs
 %   5. Remove epochs within 5 min before and 30 min after seizures
 %
-%  Created in 2026 by Zhuying Chen (zhuychen@unimelb.edu.au)
+%  Created in 2026 by Zhuying Chen (zhuying.chen@unimelb.edu.au)
 %  Released under the CC-BY-NC-4.0 License
 %  http://creativecommons.org/licenses/by-nc/4.0/
 %==========================================================================

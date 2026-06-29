@@ -5,7 +5,7 @@ function [w,h] = robust_nnmf( x, K )
 % Interface to matlab's nnmf interface, with several options to make the
 % method more robust.
 %
-% Created in 2016 by S. Gliske (sgliske@umich.edu)
+% Created in 2016 by S. Gliske (steve.gliske@unmc.edu)
 % Released under the CC-BY-NC-4.0 License
 % http://creativecommons.org/licenses/by-nc/4.0/
 %% ======================================================================

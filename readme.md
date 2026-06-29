@@ -83,6 +83,6 @@ For full license terms, see: https://creativecommons.org/licenses/by-nc/4.0/
 
 For methodological questions or collaboration inquiries, please contact: 
 
-Dr. Zhuying Chen; Email: zhuychen@unimelb.edu.au
+Dr. Zhuying Chen; Email: zhuying.chen@unimelb.edu.au
 
 Dr. William Stacey; Email: wstacey@umich.edu

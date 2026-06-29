@@ -33,7 +33,7 @@ function nmfEpochResult = analyseNMF(Rates, nValidSamples, fs, winMin, timeDayRa
 %     (K) is selected to reduce sensitivity to random initialization.
 %
 %
-%  Created in 2026 by Zhuying Chen (zhuychen@unimelb.edu.au)
+%  Created in 2026 by Zhuying Chen (zhuying.chen@unimelb.edu.au)
 %  Released under the CC-BY-NC-4.0 License
 %  http://creativecommons.org/licenses/by-nc/4.0/
 %======================================================================

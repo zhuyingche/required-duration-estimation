@@ -48,7 +48,7 @@ function  [stabPoint_timeDaySinceRecStart] = stage3_findStabPoint (varName, pati
 %   If BSP outputs or cosine similarity are unavailable, the function
 %   exits gracefully with a warning.
 %
-%  Created in 2026 by Zhuying Chen (zhuychen@unimelb.edu.au)
+%  Created in 2026 by Zhuying Chen (zhuying.chen@unimelb.edu.au)
 %  Released under the CC-BY-NC-4.0 License
 %  http://creativecommons.org/licenses/by-nc/4.0/
 %
